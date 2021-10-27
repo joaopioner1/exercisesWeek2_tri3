@@ -7,7 +7,6 @@ import ex1_entities.Revista;
 
 import java.time.Duration;
 import java.time.LocalDate;
-import java.time.LocalTime;
 
 public class Program {
 
@@ -26,6 +25,8 @@ public class Program {
         BlueRay b = new BlueRay("Pirata", 90.00, d);
         System.out.println(b);
 
-        
+        Livro l = new Livro("The little prince", 28.50,
+                "Unknown", "Happiness");
+        System.out.println(l);
     }
 }
